@@ -10,7 +10,61 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/register.css" />
     <title>Register form</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Register</h1>
+
+    <div>
+      <form class="form">
+        <div class="mb-3">
+          <label for="fname" class="form-label">First name</label>
+          <input type="text" class="form-control" id="fname" />
+        </div>
+
+        <div class="mb-3">
+          <label for="lname" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="lname" />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" />
+        </div>
+        <div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            role="switch"
+            id="flexSwitchCheckDefault"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"
+            >Checked switch checkbox input</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+      </form>
+    </div>
+
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://icdn.football-espana.net/wp-content/uploads/2020/04/zinedine-zidane-455.jpg"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </body>
 </html>
