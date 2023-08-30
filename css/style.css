@@ -1,0 +1,10 @@
+body {
+  padding: 30px;
+}
+
+.topic {
+  background-color: bisque;
+  height: 300px;
+  border: 1px solid #f0aeae;
+  padding: 10px;
+}
